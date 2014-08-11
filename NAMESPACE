@@ -1,0 +1,7 @@
+export(plot.Mdata, subset.Mcomp)
+
+S3method(plot,Mdata)
+S3method(print,Mcomp)
+S3method(print,Mdata)
+S3method(subset,Mcomp)
+
