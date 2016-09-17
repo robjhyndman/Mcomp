@@ -1,5 +1,6 @@
-Version 2.06 (28 January 2016)
+Version 2.6 (28 January 2016)
   * Fixed error with time series not starting at correct fractional year
+  * Removed package dependencies
 
 Version 2.05 (15 June 2013)
   * Fixed an error in time series N2851. The last value was zero but is 6050.25 in the original data (M3[[2851]]$xx[8] <- 6050.25)

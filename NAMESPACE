@@ -1,3 +1,6 @@
+importFrom("graphics", "lines", "plot", "title")
+importFrom("stats", "frequency", "ts", "tsp")
+
 export(plot.Mdata, subset.Mcomp)
 
 S3method(plot,Mdata)
