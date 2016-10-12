@@ -1,5 +1,6 @@
-Version 2.6 (28 January 2016)
+Version 2.6 (12 October 2016)
   * Fixed error with time series not starting at correct fractional year
+  * Added autoplot.Mcomp()
   * Removed package dependencies
 
 Version 2.05 (15 June 2013)

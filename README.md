@@ -31,8 +31,9 @@ devtools::install_github("robjhyndman/Mcomp")
 
 ```s
 library(Mcomp)
+library(ggplot2)
 M1
-plot(M1$YAF2)
+autoplot(M1$YAF2)
 subset(M1,"monthly")
 ```
 

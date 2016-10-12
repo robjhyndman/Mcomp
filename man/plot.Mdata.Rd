@@ -1,12 +1,14 @@
 \name{plot.Mdata}
 \alias{plot.Mdata}
+\alias{autoplot.Mdata}
 \title{Plotting M Competition data}
 \description{
-  plot.Mdata plots a time series from the M competition data sets.
+  Functions to plot a time series from the M competition data sets, showing both the training and test sections of the series.
 }
 \usage{
 \method{plot}{Mdata}(x, xlim=c(tsp(x$x)[1],tsp(x$xx)[2]), ylim=range(x$x,x$xx),
                    main=x$sn, xlab="", ylab="", ...)
+\method{autoplot}{Mdata}(x,  ...)
 
 }
 \arguments{
@@ -16,20 +18,21 @@
   \item{main}{Main title}
   \item{xlab}{Label on x-axis}
   \item{ylab}{Label on y-axis}
-  \item{...}{Other plotting arguments}
+  \item{...}{Other plotting arguments passed to \code{plot}. Ignored for \code{autoplot}.}
 }
 
-\value{None. The function produces a time series plot of the selected series.
+\value{\code{autoplot.Mdata} returns a ggplot2 object, while \code{plot.Mdata} returns nothing. Both functions produce a time series plot of the selected series.
 }
 
-\author{Muhammad Akram and Rob Hyndman}
+\author{Rob Hyndman}
 
 \seealso{ \code{\link{M1}}}
 
 \examples{
+library(ggplot2)
 plot(M1[[1]])
-plot(M1$YAF3)
-plot(M3$N0647)
+autoplot(M1$YAF3)
+autoplot(M3[["N0647"]])
 }
 
 \keyword{hplot}

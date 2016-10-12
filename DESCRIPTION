@@ -4,7 +4,8 @@ Description: The 1001 time series from the M-competition (Makridakis et
         al. 1982) and the 3003 time series from the IJF-M3 competition
         (Makridakis and Hibon, 2000).
 Version: 2.6
-Depends: R (>= 2.10)
+Depends: R (>= 2.10), forecast (>= 7.1)
+Imports: ggplot2
 LazyData: yes
 LazyLoad: yes
 Author: Rob J Hyndman with assistance from Muhammad Akram, Christoph Bergmeir and Mitchell O'Hara-Wild

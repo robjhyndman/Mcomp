@@ -1,16 +1,3 @@
-plot.Mdata <- function(x, xlim=c(tsp(x$x)[1],tsp(x$xx)[2]), ylim=range(x$x,x$xx),
-                        main=x$sn, xlab="", ylab="", ...)
-{
-    freq = frequency(x$x)
-    plot(ts(c(x$x, rep(NA, x$h)), end = tsp(x$x)[2] + x$h/freq, frequency = freq),ylim=ylim,
-                xlim=xlim, ylab="", xlab="",...)
-    if(nchar(x$description) > 70)
-        title(main=list(main,cex=0.75,font=2))
-    else
-        title(main=list(main,cex=1,font=2))
-    lines(ts(x$xx, start = tsp(x$x)[2] + 1/freq, frequency = freq),lt=1,col=2)
-}
-
 print.Mcomp <- function(x,...)
 {
     n <- length(x)
