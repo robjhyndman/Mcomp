@@ -1,6 +1,5 @@
 #Mcomp: Data from the M-Competitions
 [![Travis-CI Build Status](https://travis-ci.org/robjhyndman/Mcomp.svg?branch=master)](https://travis-ci.org/robjhyndman/Mcomp)
-[![Coverage Status](https://coveralls.io/repos/robjhyndman/Mcomp/badge.svg?branch=master&service=github)](https://coveralls.io/r/robjhyndman/Mcomp?branch=master)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/Mcomp)](https://cran.r-project.org/package=Mcomp)
 [![Downloads](http://cranlogs.r-pkg.org/badges/Mcomp)](https://cran.r-project.org/package=Mcomp)
 [![Rdoc](http://www.rdocumentation.org/badges/version/Mcomp)](http://www.rdocumentation.org/packages/Mcomp)
