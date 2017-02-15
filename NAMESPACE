@@ -1,6 +1,7 @@
 importFrom("graphics", "lines", "plot", "title")
 importFrom("stats", "frequency", "ts", "tsp", "start")
 importFrom("ggplot2","autoplot", "ggtitle", "xlab", "ylab", "scale_color_manual")
+import("forecast")
 
 export(autoplot.Mdata, plot.Mdata, subset.Mcomp)
 
