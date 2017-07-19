@@ -1,3 +1,7 @@
+## Version 2.7 (?? 2017)
+  * Converted to roxygen
+  * Added pkgdown site
+
 ## Version 2.6 (23 February 2017)
   * Fixed error with time series not starting at correct fractional year
   * Added autoplot.Mcomp()
