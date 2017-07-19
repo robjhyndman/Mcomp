@@ -1,28 +1,28 @@
-Version 2.6 (23 February 2017)
+## Version 2.6 (23 February 2017)
   * Fixed error with time series not starting at correct fractional year
   * Added autoplot.Mcomp()
   * Removed package dependencies
   * Corrected some labels
 
-Version 2.05 (15 June 2013)
+## Version 2.05 (15 June 2013)
   * Fixed an error in time series N2851. The last value was zero but is 6050.25 in the original data (M3[[2851]]$xx[8] <- 6050.25)
   * Added the forecasts of the original M3 competition
 
-Version 2.04 (19 March 2012)
+## Version 2.04 (19 March 2012)
   * Changes to satisfy new requirements for R-2.15.0.
 
-Version 2.03 (11 August 2011)
+## Version 2.03 (11 August 2011)
 	* Fixed error in plot.Mdata()
 
-Version 2.02 (23 February 2011)
+## Version 2.02 (23 February 2011)
   * Fixed errors in package help file
 
-Version 2.01 (19 October 2009)
+## Version 2.01 (19 October 2009)
   * Corrected URL errors in help files
 	* Added option to subset.Mdata() to obtain the 111 series
 	  used in the M-competition
 
-Version 2.00 (7 September 2009)
+## Version 2.00 (7 September 2009)
   * Package removed from forecasting bundle
 
 For details of earlier versions, please see the Changelog of

@@ -2,13 +2,10 @@
 [![Travis-CI Build Status](https://travis-ci.org/robjhyndman/Mcomp.svg?branch=master)](https://travis-ci.org/robjhyndman/Mcomp)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/Mcomp)](https://cran.r-project.org/package=Mcomp)
 [![Downloads](http://cranlogs.r-pkg.org/badges/Mcomp)](https://cran.r-project.org/package=Mcomp)
-[![Rdoc](http://www.rdocumentation.org/badges/version/Mcomp)](http://www.rdocumentation.org/packages/Mcomp)
-[![Pending Pull-Requests](http://githubbadges.herokuapp.com/robjhyndman/Mcomp/pulls.svg?style=flat)](https://github.com/robjhyndman/Mcomp/pulls)
+[![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 
-The R package *Mcomp* the 1001 time series from the M-competition (Makridakis et al. 1982) and the 3003 time series from the IJF-M3 competition (Makridakis and Hibon, 2000).
-
-Author: Rob J Hyndman
+The R package *Mcomp* contains the 1001 time series from the M-competition (Makridakis et al. 1982) and the 3003 time series from the IJF-M3 competition (Makridakis and Hibon, 2000).
 
 ## Installation
 You can install the **stable** version on
@@ -36,6 +33,12 @@ autoplot(M1$YAF2)
 subset(M1,"monthly")
 ```
 
+## Sources
+
+[Makridakis, S., A. Andersen, R. Carbone, R. Fildes, M. Hibon, R. Lewandowski, J. Newton, E. Parzen, and R. Winkler (1982) The accuracy of extrapolation (time series) methods: results of a forecasting competition. *Journal of Forecasting*, **1**, 111--153.](http://doi.org/10.1002/for.3980010202)
+
+[Makridakis and Hibon (2000) The M3-competition: results, conclusions and implications. *International Journal of Forecasting*, **16**, 451-476.](https://doi.org/10.1016/S0169-2070(00)00057-1)
+
 ## License
 
-This package is free and open source software, licensed under GPL (>= 2).
+This package is free and open source software, licensed under GPL-3

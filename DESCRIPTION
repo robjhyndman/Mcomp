@@ -7,8 +7,14 @@ Depends: R (>= 2.10), forecast (>= 8.0)
 Imports: ggplot2
 LazyData: yes
 LazyLoad: yes
-Author: Rob J Hyndman with assistance from Muhammad Akram, Christoph Bergmeir and Mitchell O'Hara-Wild
+Authors@R: c(
+  person("Rob", "Hyndman", email="Rob.Hyndman@monash.edu", role=c("aut", "cre", "cph")),
+  person("Muhammad", "Akram", role="ctb"),
+  person("Christoph", "Bergmeir", role="ctb"),
+  person("Mitchell", "O'Hara-Wild", role="ctb")
+  )
 Maintainer: Rob J Hyndman <Rob.Hyndman@monash.edu>
 License: GPL-3
-URL: http://robjhyndman.com/software/mcomp/
+URL: http://pkg.robjhyndman.com/Mcomp/, https://github.com/robjhyndman/Mcomp
+BugReports: https://github.com/robjhyndman/Mcomp/issues
 RoxygenNote: 6.0.1.9000

@@ -17,7 +17,7 @@
 #' \code{plot.Mdata} returns nothing. Both functions produce a time series plot
 #' of the selected series.
 #' @author Rob Hyndman
-#' @seealso \code{\link{M1}}
+#' @seealso \code{\link{M1}}, \code{\link{M3}}
 #' @keywords hplot
 #' @examples
 #'
@@ -42,6 +42,7 @@ plot.Mdata <- function(x, xlim=c(tsp(x$x)[1],tsp(x$xx)[2]), ylim=range(x$x,x$xx)
   lines(ts(x$xx, start = tsp(x$x)[2] + 1/freq, frequency = freq),lt=1,col=2)
 }
 
+#' @rdname plot.Mdata
 #' @export
 autoplot.Mdata <- function(x, ...)
 {

@@ -3,10 +3,13 @@
 \name{plot.Mdata}
 \alias{plot.Mdata}
 \alias{autoplot.Mdata}
+\alias{autoplot.Mdata}
 \title{Plotting M Competition data}
 \usage{
 \method{plot}{Mdata}(x, xlim = c(tsp(x$x)[1], tsp(x$xx)[2]),
   ylim = range(x$x, x$xx), main = x$sn, xlab, ylab = "", ...)
+
+\method{autoplot}{Mdata}(x, ...)
 }
 \arguments{
 \item{x}{A series of M-competition data}
@@ -41,7 +44,7 @@ autoplot(M1$YAF3)
 autoplot(M3[["N0647"]])
 }
 \seealso{
-\code{\link{M1}}
+\code{\link{M1}}, \code{\link{M3}}
 }
 \author{
 Rob Hyndman
