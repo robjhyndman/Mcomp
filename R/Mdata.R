@@ -1,3 +1,5 @@
+#' @export
+
 print.Mcomp <- function(x,...)
 {
     n <- length(x)
