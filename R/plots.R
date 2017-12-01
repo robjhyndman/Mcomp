@@ -26,6 +26,7 @@
 #' autoplot(M1$YAF3)
 #' autoplot(M3[["N0647"]])
 #' @export
+#' @export plot.Mdata
 plot.Mdata <- function(x, xlim=c(tsp(x$x)[1],tsp(x$xx)[2]), ylim=range(x$x,x$xx),
                        main=x$sn, xlab, ylab="", ...)
 {

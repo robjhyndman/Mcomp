@@ -164,6 +164,7 @@ Mcomp.sub <- function(x,getdata)
 #' M3.quarterly <- subset(M3,4)
 #' M1.yearly.industry <- subset(M1,1,"industry")
 #' @export
+#' @export subset.Mcomp
 #'
 subset.Mcomp <- function(x,cond1,cond2,...)
 {
@@ -179,4 +180,13 @@ subset.Mcomp <- function(x,cond1,cond2,...)
     }
     else
         return(M11)
+}
+
+
+#' @export
+`[.Mcomp` <- function(x, i)
+{
+  y <- NextMethod("[")
+  class(y) <- c("Mcomp", class(y))
+  y
 }
