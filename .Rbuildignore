@@ -3,3 +3,5 @@
 ## Ignore travis config file
 ^\.travis\.yml$
 ^_pkgdown\.yml$
+docs/*
+revdep/*
