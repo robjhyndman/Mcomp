@@ -1,4 +1,4 @@
-#' @export
+#' @export print.Mcomp
 
 print.Mcomp <- function(x,...)
 {
