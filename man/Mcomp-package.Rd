@@ -7,9 +7,6 @@
 \title{Data from the M-competitions}
 \source{
 \url{http://forecasters.org/resources/time-series-data/m3-competition/}.
-
-Detailed results from M3 competition at
-\url{http://www.insead.edu/facultyresearch/research/doc.cfm?did=1094}.
 }
 \description{
 The 1001 time series from the M-competition (Makridakis et al. 1982), and

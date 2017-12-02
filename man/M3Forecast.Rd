@@ -11,9 +11,6 @@ there are 18 columns, i.e., 18 forecasts. If fewer forecasts than 18 exist,
 the row is filled up with NA values.}
 \source{
 \url{http://forecasters.org/resources/time-series-data/m3-competition/}.
-
-Detailed results from M3 competition at
-\url{http://www.insead.edu/facultyresearch/research/doc.cfm?did=1094}.
 }
 \usage{
 M3Forecast
