@@ -28,6 +28,7 @@ Usage
 
 ``` r
 library(Mcomp)
+#> Loading required package: forecast
 library(ggplot2)
 M1
 #> M-Competition data: 1001 time series 
@@ -41,7 +42,7 @@ M1
 autoplot(M1$YAF2)
 ```
 
-![](READMEfigs/usage-1.png)
+![](READMEfigs_usage-1.png)
 
 ``` r
 subset(M1,"monthly")
