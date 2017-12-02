@@ -42,7 +42,7 @@ M1
 autoplot(M1$YAF2)
 ```
 
-![](READMEfigs_usage-1.png)
+![](man/figures/README-usage-1.png)
 
 ``` r
 subset(M1,"monthly")
