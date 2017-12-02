@@ -1,9 +1,12 @@
+  ^.*\.md$
+!NEWS\.md$
+^README\.Rmd$
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^README\.Rmd$
-^READMEfigs_usage-1\.png$
-^README_cache$
-## Ignore travis config file
+
+^READMEfigs*
+^README_cache*
+
 ^\.travis\.yml$
 ^_pkgdown\.yml$
 docs/*
