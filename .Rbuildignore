@@ -3,7 +3,6 @@
 ^README\.Rmd$
 ^README-.*\.png$
 ^README\_.*$
-^READMEfigs
 ## Ignore travis config file
 ^\.travis\.yml$
 ^_pkgdown\.yml$

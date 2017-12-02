@@ -1,5 +1,4 @@
-#' @export print.Mcomp
-
+#' @export 
 print.Mcomp <- function(x,...)
 {
     n <- length(x)
@@ -38,6 +37,7 @@ print.Mcomp <- function(x,...)
     }
 }
 
+#' @export 
 print.Mdata <- function(x,...)
 {
     cat(paste(x$st),fill=TRUE,labels=paste("Series:"),sep="\n")

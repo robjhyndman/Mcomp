@@ -27,8 +27,6 @@ NULL
 #' @source
 #' \url{http://forecasters.org/resources/time-series-data/m3-competition/}.
 #'
-#' Detailed results from M3 competition at
-#' \url{http://www.insead.edu/facultyresearch/research/doc.cfm?did=1094}.
 #' @keywords package
 NULL
 
