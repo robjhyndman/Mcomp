@@ -17,4 +17,4 @@
 ^README-.*\.png$
 ^logo\.png$
 ^appveyor\.yml$
-
+^docs$
