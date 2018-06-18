@@ -12,7 +12,7 @@
 \method{autoplot}{Mdata}(object, ...)
 }
 \arguments{
-\item{x}{A series of M-competition data}
+\item{x, object}{A series of M-competition data}
 
 \item{xlim}{Limits on x-axis}
 

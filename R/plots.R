@@ -5,7 +5,7 @@
 #'
 #'
 #' @aliases plot.Mdata autoplot.Mdata
-#' @param x A series of M-competition data
+#' @param x,object A series of M-competition data
 #' @param xlim Limits on x-axis
 #' @param ylim Limits on y-axis
 #' @param main Main title
