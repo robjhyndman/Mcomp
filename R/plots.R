@@ -5,7 +5,7 @@
 #'
 #'
 #' @aliases plot.Mdata autoplot.Mdata
-#' @param x A series of M-competition data
+#' @param x,object A series of M-competition data
 #' @param xlim Limits on x-axis
 #' @param ylim Limits on y-axis
 #' @param main Main title
@@ -45,14 +45,14 @@ plot.Mdata <- function(x, xlim=c(tsp(x$x)[1],tsp(x$xx)[2]), ylim=range(x$x,x$xx)
 
 #' @rdname plot.Mdata
 #' @export
-autoplot.Mdata <- function(x, ...)
+autoplot.Mdata <- function(object, ...)
 {
-  freq <- frequency(x$x)
+  freq <- frequency(object$x)
   df <- cbind(
-    Training=ts(c(x$x, rep(NA, x$h)), end = tsp(x$x)[2] + x$h/freq, frequency = freq),
-    Test=ts(x$xx, start = tsp(x$x)[2] + 1/freq, frequency = freq))
-  p <- autoplot(df) + ggtitle(x$sn) + ylab("")
-  if(start(x$x)[1] > 1900)
+    Training=ts(c(object$x, rep(NA, object$h)), end = tsp(object$x)[2] + object$h/freq, frequency = freq),
+    Test=ts(object$xx, start = tsp(object$x)[2] + 1/freq, frequency = freq))
+  p <- autoplot(df) + ggtitle(object$sn) + ylab("")
+  if(start(object$x)[1] > 1900)
     p <- p + xlab("Year")
   # Set up colours: black = training, red = test
   p <- p + scale_color_manual(values=c("black","red"), name="")
