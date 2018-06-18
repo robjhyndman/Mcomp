@@ -9,7 +9,7 @@
 \method{plot}{Mdata}(x, xlim = c(tsp(x$x)[1], tsp(x$xx)[2]),
   ylim = range(x$x, x$xx), main = x$sn, xlab, ylab = "", ...)
 
-\method{autoplot}{Mdata}(x, ...)
+\method{autoplot}{Mdata}(object, ...)
 }
 \arguments{
 \item{x}{A series of M-competition data}
