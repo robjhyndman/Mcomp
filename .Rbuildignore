@@ -18,3 +18,5 @@
 ^logo\.png$
 ^appveyor\.yml$
 ^docs$
+^CRAN-RELEASE$
+^cran-comments\.md$
