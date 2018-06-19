@@ -1,5 +1,5 @@
 Package: Mcomp
-Version: 2.8
+Version: 2.9
 Title: Data from the M-Competitions
 Description:
   The 1001 time series from the M-competition (Makridakis et al. 1982) <DOI:10.1002/for.3980010202> and the 3003 time series from the IJF-M3 competition (Makridakis and Hibon, 2000) <DOI:10.1016/S0169-2070(00)00057-1>.
