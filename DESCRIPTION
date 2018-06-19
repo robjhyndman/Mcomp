@@ -1,19 +1,22 @@
 Package: Mcomp
+Version: 2.8
 Title: Data from the M-Competitions
 Description:
   The 1001 time series from the M-competition (Makridakis et al. 1982) <DOI:10.1002/for.3980010202> and the 3003 time series from the IJF-M3 competition (Makridakis and Hibon, 2000) <DOI:10.1016/S0169-2070(00)00057-1>.
-Version: 2.7
-Depends: R (>= 2.10), forecast (>= 8.0)
-Imports: ggplot2
+Depends: 
+  R (>= 2.10), 
+  forecast (>= 8.0)
+Imports: 
+  ggplot2
 LazyData: yes
 LazyLoad: yes
+ByteCompile: TRUE
 Authors@R: c(
-  person("Rob", "Hyndman", email="Rob.Hyndman@monash.edu", role=c("aut", "cre", "cph")),
+  person("Rob", "Hyndman", email="Rob.Hyndman@monash.edu", role=c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-2140-5352")),
   person("Muhammad", "Akram", role="ctb"),
-  person("Christoph", "Bergmeir", role="ctb"),
+  person("Christoph", "Bergmeir", role="ctb", comment = c(ORCID = "0000-0002-3665-9021")),
   person("Mitchell", "O'Hara-Wild", role="ctb")
   )
-Maintainer: Rob Hyndman <Rob.Hyndman@monash.edu>
 License: GPL-3
 URL: http://pkg.robjhyndman.com/Mcomp/, https://github.com/robjhyndman/Mcomp
 BugReports: https://github.com/robjhyndman/Mcomp/issues
