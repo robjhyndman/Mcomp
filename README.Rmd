@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 [![Downloads](http://cranlogs.r-pkg.org/badges/Mcomp)](https://cran.r-project.org/package=Mcomp)
 [![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-The R package *Mcomp* contains the 1001 time series from the M-competition (Makridakis et al. 1982) and the 3003 time series from the IJF-M3 competition (Makridakis and Hibon, 2000).
+The R package *Mcomp* contains the 1001 time series from the M-competition (Makridakis et al. 1982) and the 3003 time series from the IJF-M3 competition (Makridakis and Hibon, 2000). See also the [tscompdata package](https://github.com/robjhyndman/tscompdata).
 
 ## Installation
 

@@ -1,3 +1,6 @@
+## Version 2.8 (19 June 2018)
+  * Fixed S3 generic consistency for autoplot.Mdata
+
 ## Version 2.7 (2 December 2017)
   * Converted to roxygen
   * Added pkgdown site
