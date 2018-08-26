@@ -22,5 +22,6 @@ URL: http://pkg.robjhyndman.com/Mcomp/, https://github.com/robjhyndman/Mcomp
 BugReports: https://github.com/robjhyndman/Mcomp/issues
 RoxygenNote: 6.0.1.9000
 Suggests: knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
