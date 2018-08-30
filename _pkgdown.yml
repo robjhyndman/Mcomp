@@ -11,12 +11,15 @@ navbar:
   left:
     - text: "Reference"
       href: reference/index.html
+    - text: "Introduction"
+      href: articles/Mcomp.html
+    - text: "Forecast comparisons"
+      href: articles/Comparisons.html
     - text: "Change Log"
       href: news/index.html
   right:
     - icon: fa-github fa-lg
       href: https://github.com/robjhyndman/Mcomp
-
 
 reference:
   - title: "Data"

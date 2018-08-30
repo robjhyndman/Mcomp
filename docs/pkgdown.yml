@@ -1,5 +1,7 @@
 pandoc: 2.2.1
 pkgdown: 1.1.0.9000
-pkgdown_sha: bcf6299e76d4a398aadfc476b3ac22d253a91d35
-articles: []
+pkgdown_sha: b2798656f04ce282edea3e12734ba5588c6acd6e
+articles:
+  Comparisons: Comparisons.html
+  Mcomp: Mcomp.html
 
