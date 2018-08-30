@@ -3,7 +3,6 @@
 \name{plot.Mdata}
 \alias{plot.Mdata}
 \alias{autoplot.Mdata}
-\alias{autoplot.Mdata}
 \title{Plotting M Competition data}
 \usage{
 \method{plot}{Mdata}(x, xlim = c(tsp(x$x)[1], tsp(x$xx)[2]),

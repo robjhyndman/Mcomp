@@ -1,3 +1,6 @@
+## Version 2.9 (??)
+  * Added some vignettes
+
 ## Version 2.8 (19 June 2018)
   * Fixed S3 generic consistency for autoplot.Mdata
 
