@@ -3,10 +3,10 @@ Version: 2.9
 Title: Data from the M-Competitions
 Description:
   The 1001 time series from the M-competition (Makridakis et al. 1982) <DOI:10.1002/for.3980010202> and the 3003 time series from the IJF-M3 competition (Makridakis and Hibon, 2000) <DOI:10.1016/S0169-2070(00)00057-1>.
-Depends: 
+Depends:
   R (>= 2.10), 
   forecast (>= 8.0)
-Imports: 
+Imports:
   ggplot2
 LazyData: yes
 LazyLoad: yes
@@ -21,3 +21,7 @@ License: GPL-3
 URL: http://pkg.robjhyndman.com/Mcomp/, https://github.com/robjhyndman/Mcomp
 BugReports: https://github.com/robjhyndman/Mcomp/issues
 RoxygenNote: 6.0.1.9000
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
