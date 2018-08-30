@@ -11,9 +11,12 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+vignettes/*.R
 .Rbuildignore
 *.Rproj
 README_cache
+vignettes/*_cache
+vignettes/*_files
 # Reverse depenency checks
 revdep
 inst/doc
