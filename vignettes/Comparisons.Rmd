@@ -6,7 +6,7 @@ output:
   rmarkdown::html_vignette:
     fig_caption: yes
 vignette: >
-  %\VignetteIndexEntry{Introduction to the Mcomp package}
+  %\VignetteIndexEntry{Forecast comparisons using the Mcomp package}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
