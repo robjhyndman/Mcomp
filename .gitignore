@@ -20,3 +20,4 @@ vignettes/*_files
 # Reverse depenency checks
 revdep
 inst/doc
+docs

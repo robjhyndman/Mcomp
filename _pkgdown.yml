@@ -1,40 +1,38 @@
+url: http://pkg.robjhyndman.com/Mcomp/
 template:
   params:
     bootswatch: flatly
-
 authors:
   Rob Hyndman:
     href: http://robjhyndman.com
-
 navbar:
   type: default
   left:
-    - text: "Reference"
-      href: reference/index.html
-    - text: "Introduction"
-      href: articles/Mcomp.html
-    - text: "Forecast comparisons"
-      href: articles/Comparisons.html
-    - text: "Change Log"
-      href: news/index.html
+  - text: Reference
+    href: reference/index.html
+  - text: Introduction
+    href: articles/Mcomp.html
+  - text: Forecast comparisons
+    href: articles/Comparisons.html
+  - text: Change Log
+    href: news/index.html
   right:
-    - icon: fa-github fa-lg
-      href: https://github.com/robjhyndman/Mcomp
-
+  - icon: fa-github fa-lg
+    href: https://github.com/robjhyndman/Mcomp
 reference:
-  - title: "Package"
-    desc: "Mcomp package"
-    contents:
-      - Mcomp-package
-  - title: "Data"
-    desc: "Data sets in the package"
-    contents:
-      - M1
-      - M3
-      - M3Forecast
-  - title: "Functions"
-    desc: "Functions for plotting and subsetting data"
-    contents:
-      - plot.Mdata
-      - autoplot.Mdata
-      - subset.Mcomp
+- title: Package
+  desc: Mcomp package
+  contents: Mcomp-package
+- title: Data
+  desc: Data sets in the package
+  contents:
+  - M1
+  - M3
+  - M3Forecast
+- title: Functions
+  desc: Functions for plotting and subsetting data
+  contents:
+  - plot.Mdata
+  - autoplot.Mdata
+  - subset.Mcomp
+

@@ -18,7 +18,8 @@ Authors@R: c(
   person("Mitchell", "O'Hara-Wild", role="ctb")
   )
 License: GPL-3
-URL: http://pkg.robjhyndman.com/Mcomp/, https://github.com/robjhyndman/Mcomp
+URL: http://pkg.robjhyndman.com/Mcomp/,
+    https://github.com/robjhyndman/Mcomp
 BugReports: https://github.com/robjhyndman/Mcomp/issues
 Encoding: UTF-8
 RoxygenNote: 6.1.0
