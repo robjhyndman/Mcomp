@@ -22,6 +22,10 @@ navbar:
       href: https://github.com/robjhyndman/Mcomp
 
 reference:
+  - title: "Package"
+    desc: "Mcomp package"
+    contents:
+      - Mcomp-package
   - title: "Data"
     desc: "Data sets in the package"
     contents:
