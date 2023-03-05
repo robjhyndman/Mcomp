@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/404.html</loc>
   </url>
   <url>
-    <loc>/articles/Comparisons.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/articles/Comparisons.html</loc>
   </url>
   <url>
-    <loc>/articles/Mcomp.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/articles/Mcomp.html</loc>
   </url>
   <url>
-    <loc>/articles/index.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/articles/index.html</loc>
   </url>
   <url>
-    <loc>/authors.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/authors.html</loc>
   </url>
   <url>
-    <loc>/index.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/index.html</loc>
   </url>
   <url>
-    <loc>/news/index.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/news/index.html</loc>
   </url>
   <url>
-    <loc>/reference/M1.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/reference/M1.html</loc>
   </url>
   <url>
-    <loc>/reference/M3.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/reference/M3.html</loc>
   </url>
   <url>
-    <loc>/reference/M3Forecast.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/reference/M3Forecast.html</loc>
   </url>
   <url>
-    <loc>/reference/Mcomp-package.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/reference/Mcomp-package.html</loc>
   </url>
   <url>
-    <loc>/reference/index.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/reference/index.html</loc>
   </url>
   <url>
-    <loc>/reference/plot.Mdata.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/reference/plot.Mdata.html</loc>
   </url>
   <url>
-    <loc>/reference/subset.Mcomp.html</loc>
+    <loc>http://pkg.robjhyndman.com/Mcomp/reference/subset.Mcomp.html</loc>
   </url>
 </urlset>
