@@ -4,11 +4,13 @@
 \name{M3Forecast}
 \alias{M3Forecast}
 \title{M3-Competition forecasts of original competition participants}
-\format{M3Forecast is a list of data.frames. Each list element is the result
+\format{
+M3Forecast is a list of data.frames. Each list element is the result
 of one forecasting method. The data.frame then has the following structure:
 Each row is the forecast of one series. Rows are named accordingly. In total
 there are 18 columns, i.e., 18 forecasts. If fewer forecasts than 18 exist,
-the row is filled up with NA values.}
+the row is filled up with NA values.
+}
 \source{
 \url{http://forecasters.org/resources/time-series-data/m3-competition/}.
 }

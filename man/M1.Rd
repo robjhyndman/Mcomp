@@ -4,7 +4,8 @@
 \name{M1}
 \alias{M1}
 \title{M-Competition data}
-\format{M1 is a list of 1001 series of class \code{Mcomp}.
+\format{
+M1 is a list of 1001 series of class \code{Mcomp}.
 Each series within \code{M1} is of class \code{Mdata} with the following structure:
 \describe{
   \item{sn}{Name of the series}
@@ -20,7 +21,8 @@ Each series within \code{M1} is of class \code{Mdata} with the following structu
   \item{description}{A short description of the time series}
   \item{x}{A time series of length \code{n} (the historical data)}
   \item{xx}{A time series of length \code{h} (the future data)}
-}}
+}
+}
 \source{
 \url{http://forecasters.org/resources/time-series-data/m-competition/}.
 }

@@ -4,7 +4,8 @@
 \name{M3}
 \alias{M3}
 \title{M3-Competition data}
-\format{M3 is a list of 3003 series of class \code{Mcomp}. Each series within \code{M3} is
+\format{
+M3 is a list of 3003 series of class \code{Mcomp}. Each series within \code{M3} is
 of class \code{Mdata} with the following structure:
 \describe{
   \item{sn}{Name of the series}
@@ -20,7 +21,8 @@ of class \code{Mdata} with the following structure:
   \item{description}{A short description of the time series}
   \item{x}{A time series of length \code{n} (the historical data)}
   \item{xx}{A time series of length \code{h} (the future data)}
-}}
+}
+}
 \source{
 \url{http://forecasters.org/resources/time-series-data/m3-competition/}.
 }

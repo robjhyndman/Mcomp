@@ -5,8 +5,15 @@
 \alias{autoplot.Mdata}
 \title{Plotting M Competition data}
 \usage{
-\method{plot}{Mdata}(x, xlim = c(tsp(x$x)[1], tsp(x$xx)[2]),
-  ylim = range(x$x, x$xx), main = x$sn, xlab, ylab = "", ...)
+\method{plot}{Mdata}(
+  x,
+  xlim = c(tsp(x$x)[1], tsp(x$xx)[2]),
+  ylim = range(x$x, x$xx),
+  main = x$sn,
+  xlab,
+  ylab = "",
+  ...
+)
 
 \method{autoplot}{Mdata}(object, ...)
 }

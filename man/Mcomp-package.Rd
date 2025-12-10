@@ -23,6 +23,15 @@ Makridakis and Hibon (2000) The M3-competition: results, conclusions and
 implications. \emph{International Journal of Forecasting}, \bold{16},
 451-476.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{http://pkg.robjhyndman.com/Mcomp/}
+  \item \url{https://github.com/robjhyndman/Mcomp}
+  \item Report bugs at \url{https://github.com/robjhyndman/Mcomp/issues}
+}
+
+}
 \author{
 Rob J Hyndman. \email{Rob.Hyndman@monash.edu}, with assistance from
 Muhammad Akram and Christoph Bergmeir.

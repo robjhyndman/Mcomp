@@ -4,10 +4,13 @@
 
 # History files
 .Rapp.history
+
 # Example code in package build process
 *-Ex.R
+
 # RStudio files
 .Rproj.user/
+
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
@@ -17,7 +20,11 @@ vignettes/*.R
 README_cache
 vignettes/*_cache
 vignettes/*_files
-# Reverse depenency checks
+
+# Reverse dependency checks
 revdep
 inst/doc
 docs
+
+.comments
+

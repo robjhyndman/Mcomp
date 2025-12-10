@@ -23,7 +23,7 @@ URL: http://pkg.robjhyndman.com/Mcomp/,
     https://github.com/robjhyndman/Mcomp
 BugReports: https://github.com/robjhyndman/Mcomp/issues
 Encoding: UTF-8
-RoxygenNote: 6.1.0
+RoxygenNote: 7.3.3
 Suggests: knitr,
     rmarkdown,
     testthat
