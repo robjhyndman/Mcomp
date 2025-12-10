@@ -38,7 +38,7 @@ ab2 <- as.matrix(M3Forecast$AutoBox2)
 ab3 <- as.matrix(M3Forecast$AutoBox3)
 ets1 <- aarima <- hybrid <- matrix(NA, nrow=nseries, ncol=18)
 # ETS and ARIMA forecasts, and combination
-for (i in seq(nseries)) {
+for (i in seq_along(M3)) {
   ets1[i, ] <- forecast(ets(M3[[i]]$x), h=18, PI=FALSE)$mean
   aarima[i, ] <- forecast(auto.arima(M3[[i]]$x), h=18)$mean
   hybrid[i, ] <- 0.5 * (aarima[i, ] + ets1[i, ])
@@ -49,7 +49,7 @@ for (i in seq(nseries)) {
 # Compute accuracy of all methods
 mase <- mape <- smape <- matrix(NA, nrow=10, ncol=nseries)
 f <- matrix(NA, nrow=10, ncol=18)
-for (i in seq(nseries)) {
+for (i in seq_along(M3)) {
   x <- M3[[i]]$xx
   n <- length(x)
   f[1, seq(n)] <- theta[i, seq(n)]

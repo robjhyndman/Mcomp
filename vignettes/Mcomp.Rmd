@@ -85,7 +85,6 @@ The time series from the M3 forecasting competition and the forecasts from all t
 
 `M3Forecast` is a list of `data.frames`. Each list element is the result of one forecasting method. The `data.frame` then has the following structure. Each row is the forecast of one series; rows are named accordingly. Each column corresponds to a forecast horizon. There are 18 columns, as the maximum number of forecasts for any series is 18. If fewer forecasts than 18 exist, the row is padded with `NA` values.
 
-
 ```{r M3}
 M3
 autoplot(M3[[1]])

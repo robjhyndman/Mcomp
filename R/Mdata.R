@@ -2,7 +2,7 @@
 print.Mcomp <- function(x, ...) {
   n <- length(x)
   Type <- Period <- character(n)
-  for (i in 1:n) {
+  for (i in seq_along(x)) {
     Type[i] <- x[[i]]$type
     if (Type[i] == "INDUSTRIAL") {
       Type[i] <- "INDUST"
@@ -64,7 +64,7 @@ print.Mdata <- function(x, ...) {
 Mcomp.sub <- function(x, getdata) {
   n <- length(x)
   Type <- Period <- character(n)
-  for (i in 1:n) {
+  for (i in seq_along(x)) {
     Type[i] <- x[[i]]$type
     if (Type[i] == "INDUSTRIAL") {
       Type[i] <- "INDUST"
@@ -145,7 +145,6 @@ Mcomp.sub <- function(x, getdata) {
   return(x[choose])
 }
 
-
 #' Subset of time series from the M Competitions
 #'
 #' \code{subset.Mcomp} returns a subset of the time series data from the M
@@ -207,7 +206,6 @@ subset.Mcomp <- function(x, cond1, cond2, ...) {
     return(M11)
   }
 }
-
 
 #' @export
 `[.Mcomp` <- function(x, i) {

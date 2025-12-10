@@ -26,7 +26,7 @@
 #'
 #' errors <- lapply(M3Forecast, function(f) {
 #'       res <- NULL
-#'       for(x in 1:length(M3)) {
+#'       for(x in seq_along(M3)) {
 #'         curr_f <- unlist(f[x,])
 #'         if(any(!is.na(curr_f))) {
 #'           curr_res <- accuracy(curr_f, M3[[x]]$xx)
