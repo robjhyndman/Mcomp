@@ -3,11 +3,13 @@
 
 # Mcomp: Data from the M-Competitions
 
-[![Travis-CI Build
-Status](https://travis-ci.org/robjhyndman/Mcomp.svg?branch=master)](https://travis-ci.org/robjhyndman/Mcomp)
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/Mcomp)](https://cran.r-project.org/package=Mcomp)
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/robjhyndman/Mcomp/actions/workflows/R-CMD-check.yaml/badge.svghttps://github.com/robjhyndman/Mcomp/actions/workflows/R-CMD-check.yaml/badge.svghttps://github.com/robjhyndman/Mcomp/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/robjhyndman/Mcomp/actions/workflows/R-CMD-check.yaml)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/Mcomp)](https://cran.r-project.org/package=Mcomp)
 [![Downloads](http://cranlogs.r-pkg.org/badges/Mcomp)](https://cran.r-project.org/package=Mcomp)
 [![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+<!-- badges: end -->
 
 The R package *Mcomp* contains the 1001 time series from the
 M-competition (Makridakis et al. 1982) and the 3003 time series from the
@@ -16,11 +18,11 @@ IJF-M3 competition (Makridakis and Hibon, 2000). See also the
 
 ## Installation
 
-You can install the **stable** version on [R
-CRAN](https://cran.r-project.org/package=Mcomp).
+You can install the **stable** version from
+[CRAN](https://cran.r-project.org/package=Mcomp).
 
 ``` r
-install.packages('Mcomp')
+pak::pak("Mcomp")
 ```
 
 You can install the **development** version from
@@ -28,7 +30,7 @@ You can install the **development** version from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("robjhyndman/Mcomp")
+pak::pak("robjhyndman/Mcomp")
 ```
 
 ## Usage
@@ -36,6 +38,9 @@ devtools::install_github("robjhyndman/Mcomp")
 ``` r
 library(Mcomp)
 #> Loading required package: forecast
+#> Registered S3 method overwritten by 'quantmod':
+#>   method            from
+#>   as.zoo.data.frame zoo
 library(ggplot2)
 M1
 #> M-Competition data: 1001 time series 
@@ -52,7 +57,7 @@ autoplot(M1$YAF2)
 ![](man/figures/README-usage-1.png)<!-- -->
 
 ``` r
-subset(M1,"monthly")
+subset(M1, "monthly")
 #> M-Competition data: 617 MONTHLY time series
 #> 
 #>          Type of data
@@ -70,7 +75,7 @@ competition. *Journal of Forecasting*, **1**,
 
 [Makridakis and Hibon (2000) The M3-competition: results, conclusions
 and implications. *International Journal of Forecasting*, **16**,
-451-476.](https://doi.org/10.1016/S0169-2070\(00\)00057-1)
+451-476.](https://doi.org/10.1016/S0169-2070(00)00057-1)
 
 ## License
 

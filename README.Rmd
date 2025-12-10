@@ -16,20 +16,22 @@ knitr::opts_chunk$set(
 
 # Mcomp: Data from the M-Competitions
 
-[![Travis-CI Build Status](https://travis-ci.org/robjhyndman/Mcomp.svg?branch=master)](https://travis-ci.org/robjhyndman/Mcomp)
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/Mcomp)](https://cran.r-project.org/package=Mcomp)
-[![Downloads](http://cranlogs.r-pkg.org/badges/Mcomp)](https://cran.r-project.org/package=Mcomp)
-[![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+<!-- badges: start -->
+  [![R-CMD-check](https://github.com/robjhyndman/Mcomp/actions/workflows/R-CMD-check.yaml/badge.svghttps://github.com/robjhyndman/Mcomp/actions/workflows/R-CMD-check.yaml/badge.svghttps://github.com/robjhyndman/Mcomp/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/robjhyndman/Mcomp/actions/workflows/R-CMD-check.yaml)
+  [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/Mcomp)](https://cran.r-project.org/package=Mcomp)
+  [![Downloads](http://cranlogs.r-pkg.org/badges/Mcomp)](https://cran.r-project.org/package=Mcomp)
+  [![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+<!-- badges: end -->
 
 The R package *Mcomp* contains the 1001 time series from the M-competition (Makridakis et al. 1982) and the 3003 time series from the IJF-M3 competition (Makridakis and Hibon, 2000). See also the [tscompdata package](https://github.com/robjhyndman/tscompdata).
 
 ## Installation
 
-You can install the **stable** version on
-[R CRAN](https://cran.r-project.org/package=Mcomp).
+You can install the **stable** version from
+[CRAN](https://cran.r-project.org/package=Mcomp).
 
 ```r
-install.packages('Mcomp')
+pak::pak("Mcomp")
 ```
 
 You can install the **development** version from
@@ -37,7 +39,7 @@ You can install the **development** version from
 
 ```r
 # install.packages("devtools")
-devtools::install_github("robjhyndman/Mcomp")
+pak::pak("robjhyndman/Mcomp")
 ```
 
 ## Usage
@@ -47,7 +49,7 @@ library(Mcomp)
 library(ggplot2)
 M1
 autoplot(M1$YAF2)
-subset(M1,"monthly")
+subset(M1, "monthly")
 ```
 
 ## Sources
