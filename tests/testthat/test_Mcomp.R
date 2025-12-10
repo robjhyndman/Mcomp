@@ -7,7 +7,6 @@ test_that("plot and autoplot return the right classes", {
 })
 
 test_that("subset returns the right number of series using examples in help file", {
-  expect_equal(length(subset(M3,4)), 756)
-  expect_equal(length(subset(M1,1,"industry")), 35)
+  expect_equal(length(subset(M3, 4)), 756)
+  expect_equal(length(subset(M1, 1, "industry")), 35)
 })
-
