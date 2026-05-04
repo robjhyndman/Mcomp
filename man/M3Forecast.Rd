@@ -15,7 +15,7 @@ the row is filled up with NA values.
 \url{http://forecasters.org/resources/time-series-data/m3-competition/}.
 }
 \usage{
-M3Forecast
+data(M3Forecast)
 }
 \description{
 The forecasts from all the original participating methods in the M3
@@ -31,7 +31,7 @@ M3Forecast[["NAIVE2"]][1,]
 
 errors <- lapply(M3Forecast, function(f) {
       res <- NULL
-      for(x in 1:length(M3)) {
+      for(x in seq_along(M3)) {
         curr_f <- unlist(f[x,])
         if(any(!is.na(curr_f))) {
           curr_res <- accuracy(curr_f, M3[[x]]$xx)

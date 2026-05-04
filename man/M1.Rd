@@ -27,7 +27,7 @@ Each series within \code{M1} is of class \code{Mdata} with the following structu
 \url{http://forecasters.org/resources/time-series-data/m-competition/}.
 }
 \usage{
-M1
+data(M1)
 }
 \description{
 The time series from the M1 forecasting competition.

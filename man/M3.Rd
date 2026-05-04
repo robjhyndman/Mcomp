@@ -27,7 +27,7 @@ of class \code{Mdata} with the following structure:
 \url{http://forecasters.org/resources/time-series-data/m3-competition/}.
 }
 \usage{
-M3
+data(M3)
 }
 \description{
 The time series from the M3 forecasting competition.

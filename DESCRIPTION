@@ -23,8 +23,8 @@ URL: http://pkg.robjhyndman.com/Mcomp/,
     https://github.com/robjhyndman/Mcomp
 BugReports: https://github.com/robjhyndman/Mcomp/issues
 Encoding: UTF-8
-RoxygenNote: 7.3.3
 Suggests: knitr,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
+Config/roxygen2/version: 8.0.0
