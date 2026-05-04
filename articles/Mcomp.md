@@ -25,11 +25,9 @@ real data.
 The M1 competition data are stored as `M1`.
 
 ``` r
+
 library(Mcomp)
 #> Loading required package: forecast
-#> Registered S3 method overwritten by 'quantmod':
-#>   method            from
-#>   as.zoo.data.frame zoo
 M1
 #> M-Competition data: 1001 time series 
 #> 
@@ -49,12 +47,14 @@ functions plot a time series, showing both the training and test
 sections of the series.
 
 ``` r
+
 plot(M1[[1]])
 ```
 
 ![](Mcomp_files/figure-html/M1plot-1.png)
 
 ``` r
+
 autoplot(M1[[1]])
 ```
 
@@ -65,6 +65,7 @@ returns a subset of the time series data; subsets can be for specific
 periods, or specific types of data or both.
 
 ``` r
+
 subset(M1, "monthly")
 #> M-Competition data: 617 MONTHLY time series
 #> 
@@ -89,6 +90,7 @@ The 111 series used in the extended comparisons in the 1982
 M-competition can also be selected.
 
 ``` r
+
 subset(M1, 111)
 #> M-Competition data: 111 time series 
 #> 
@@ -105,6 +107,7 @@ list containing information about one time series. For example, the
 first element contains the following information.
 
 ``` r
+
 str(M1[[1]])
 #> List of 9
 #>  $ st         : chr "Y1"
@@ -163,6 +166,7 @@ columns, as the maximum number of forecasts for any series is 18. If
 fewer forecasts than 18 exist, the row is padded with `NA` values.
 
 ``` r
+
 M3
 #> M-Competition data: 3003 time series 
 #> 
@@ -179,6 +183,7 @@ autoplot(M3[[1]])
 ![](Mcomp_files/figure-html/M3-1.png)
 
 ``` r
+
 subset(M3, "macro")
 #> M-Competition data: 731 MACRO time series
 #> 

@@ -6,7 +6,7 @@ forecasting competition.
 ## Usage
 
 ``` r
-M3Forecast
+data(M3Forecast)
 ```
 
 ## Format
@@ -33,6 +33,7 @@ Christoph Bergmeir and Rob Hyndman
 ## Examples
 
 ``` r
+
 M3Forecast[["NAIVE2"]][1,]
 #>            V1      V2      V3      V4      V5      V6 V7 V8 V9 V10 V11 V12 V13
 #> N0001 4936.99 4936.99 4936.99 4936.99 4936.99 4936.99 NA NA NA  NA  NA  NA  NA
@@ -45,7 +46,7 @@ if (FALSE) { # \dontrun{
 
 errors <- lapply(M3Forecast, function(f) {
       res <- NULL
-      for(x in 1:length(M3)) {
+      for(x in seq_along(M3)) {
         curr_f <- unlist(f[x,])
         if(any(!is.na(curr_f))) {
           curr_res <- accuracy(curr_f, M3[[x]]$xx)

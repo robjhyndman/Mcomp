@@ -14,6 +14,7 @@ absolute percentage error and the MASE column shows the mean absolute
 scaled errors.
 
 ``` r
+
 # Original M3 forecasts
 nseries <- length(M3)
 theta <- as.matrix(M3Forecast$THETA)
@@ -33,6 +34,7 @@ for (i in seq_along(M3)) {
 ```
 
 ``` r
+
 # Compute accuracy of all methods
 mase <- mape <- smape <- matrix(NA, nrow=10, ncol=nseries)
 f <- matrix(NA, nrow=10, ncol=18)
@@ -60,6 +62,7 @@ for (i in seq_along(M3)) {
 ```
 
 ``` r
+
 m3table <- matrix(NA, nrow = 10, ncol = 3)
 m3table[, 1] <- rowMeans(mape, na.rm = TRUE)
 m3table[, 2] <- rowMeans(smape)
@@ -106,6 +109,7 @@ provide gives forecasts that are in the same ballpark as the best
 methods in the M3 competition. Here is the evidence.
 
 ``` r
+
 kable(round(m3table[c("ETS", "AutoARIMA", "Hybrid"),
                     c("Average_sMAPE_recalculated", "MAPE", "MASE")], 2))
 ```

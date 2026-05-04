@@ -20,13 +20,13 @@
 Source:
 [`DESCRIPTION`](https://github.com/robjhyndman/Mcomp/blob/master/DESCRIPTION)
 
-Hyndman R (2025). *Mcomp: Data from the M-Competitions*. R package
+Hyndman R (2026). *Mcomp: Data from the M-Competitions*. R package
 version 2.9, <http://pkg.robjhyndman.com/Mcomp/>.
 
     @Manual{,
       title = {Mcomp: Data from the M-Competitions},
       author = {Rob Hyndman},
-      year = {2025},
+      year = {2026},
       note = {R package version 2.9},
       url = {http://pkg.robjhyndman.com/Mcomp/},
     }

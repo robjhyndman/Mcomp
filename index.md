@@ -11,6 +11,7 @@ You can install the **stable** version from
 [CRAN](https://cran.r-project.org/package=Mcomp).
 
 ``` r
+
 pak::pak("Mcomp")
 ```
 
@@ -18,6 +19,7 @@ You can install the **development** version from
 [Github](https://github.com/robjhyndman/Mcomp)
 
 ``` r
+
 # install.packages("devtools")
 pak::pak("robjhyndman/Mcomp")
 ```
@@ -25,6 +27,7 @@ pak::pak("robjhyndman/Mcomp")
 ## Usage
 
 ``` r
+
 library(Mcomp)
 #> Loading required package: forecast
 #> Registered S3 method overwritten by 'quantmod':
@@ -46,6 +49,7 @@ autoplot(M1$YAF2)
 ![](reference/figures/README-usage-1.png)
 
 ``` r
+
 subset(M1, "monthly")
 #> M-Competition data: 617 MONTHLY time series
 #> 
