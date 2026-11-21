@@ -33,7 +33,6 @@ data(M1)
 The time series from the M1 forecasting competition.
 }
 \examples{
-
 M1
 plot(M1$YAF2)
 subset(M1,"monthly")

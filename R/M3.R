@@ -29,7 +29,6 @@
 #'
 #' @keywords datasets
 #' @examples
-#'
 #' M3
 #' plot(M3[[32]])
 #' subset(M3,"monthly")

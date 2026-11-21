@@ -20,7 +20,6 @@
 #' @seealso \code{\link{M1}}, \code{\link{M3}}
 #' @keywords hplot
 #' @examples
-#'
 #' library(ggplot2)
 #' plot(M1[[1]])
 #' autoplot(M1$YAF3)

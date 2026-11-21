@@ -185,7 +185,6 @@ Mcomp.sub <- function(x, getdata) {
 #' 451-476.
 #' @keywords data
 #' @examples
-#'
 #' M3.quarterly <- subset(M3,4)
 #' M1.yearly.industry <- subset(M1,1,"industry")
 #' @export

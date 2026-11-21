@@ -43,7 +43,6 @@ Functions to plot a time series from the M competition data sets, showing
 both the training and test sections of the series.
 }
 \examples{
-
 library(ggplot2)
 plot(M1[[1]])
 autoplot(M1$YAF3)

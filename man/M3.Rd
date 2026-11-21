@@ -33,7 +33,6 @@ data(M3)
 The time series from the M3 forecasting competition.
 }
 \examples{
-
 M3
 plot(M3[[32]])
 subset(M3,"monthly")

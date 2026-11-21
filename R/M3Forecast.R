@@ -17,7 +17,6 @@
 #'
 #' @keywords datasets
 #' @examples
-#'
 #' M3Forecast[["NAIVE2"]][1,]
 #'
 #' \dontrun{

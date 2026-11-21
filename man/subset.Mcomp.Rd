@@ -42,7 +42,6 @@ used in the competitions. See the references for details.
 Partial matching used for both conditions.
 }
 \examples{
-
 M3.quarterly <- subset(M3,4)
 M1.yearly.industry <- subset(M1,1,"industry")
 }

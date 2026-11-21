@@ -31,7 +31,6 @@
 #'
 #' @keywords datasets
 #' @examples
-#'
 #' M1
 #' plot(M1$YAF2)
 #' subset(M1,"monthly")

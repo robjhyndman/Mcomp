@@ -22,7 +22,6 @@ The forecasts from all the original participating methods in the M3
 forecasting competition.
 }
 \examples{
-
 M3Forecast[["NAIVE2"]][1,]
 
 \dontrun{
