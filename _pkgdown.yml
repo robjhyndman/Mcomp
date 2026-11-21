@@ -1,11 +1,9 @@
 url: http://pkg.robjhyndman.com/Mcomp/
 template:
   bootstrap: 5
-  theme: tango
   bootswatch: flatly
   bslib:
     base_font: {google: "Fira Sans"}
-    heading_font: {google: "Fira Sans"}
     code_font: "Hack, mono"
     primary: "#234460"
     link-color: "#234460"
@@ -16,18 +14,13 @@ authors:
     href: http://robjhyndman.com
 navbar:
   type: light
-  left:
-  - text: Reference
-    href: reference/index.html
-  - text: Introduction
-    href: articles/Mcomp.html
-  - text: Forecast comparisons
-    href: articles/Comparisons.html
-  - text: Change Log
-    href: news/index.html
-  right:
-  - icon: fa-github fa-lg
-    href: https://github.com/robjhyndman/Mcomp
+  components:
+    intro:
+      text: Introduction
+      href: articles/Mcomp.html
+    articles:
+      text: Forecast comparisons
+      href: articles/Comparisons.html
 reference:
 - title: Package
   desc: Mcomp package
