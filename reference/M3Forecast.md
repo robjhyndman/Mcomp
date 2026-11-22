@@ -33,7 +33,6 @@ Christoph Bergmeir and Rob Hyndman
 ## Examples
 
 ``` r
-
 M3Forecast[["NAIVE2"]][1,]
 #>            V1      V2      V3      V4      V5      V6 V7 V8 V9 V10 V11 V12 V13
 #> N0001 4936.99 4936.99 4936.99 4936.99 4936.99 4936.99 NA NA NA  NA  NA  NA  NA

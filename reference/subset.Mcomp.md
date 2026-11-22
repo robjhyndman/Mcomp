@@ -73,7 +73,6 @@ Muhammad Akram and Rob Hyndman
 ## Examples
 
 ``` r
-
 M3.quarterly <- subset(M3,4)
 M1.yearly.industry <- subset(M1,1,"industry")
 ```

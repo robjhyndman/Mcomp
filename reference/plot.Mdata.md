@@ -69,7 +69,6 @@ Rob Hyndman
 ## Examples
 
 ``` r
-
 library(ggplot2)
 plot(M1[[1]])
 

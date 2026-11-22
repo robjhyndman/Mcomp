@@ -117,8 +117,8 @@ kable(round(m3table[c("ETS", "AutoARIMA", "Hybrid"),
 |           | Average_sMAPE_recalculated |  MAPE | MASE |
 |:----------|---------------------------:|------:|-----:|
 | ETS       |                      13.07 | 17.69 | 1.43 |
-| AutoARIMA |                      13.57 | 18.72 | 1.45 |
-| Hybrid    |                      12.77 | 17.68 | 1.40 |
+| AutoARIMA |                      13.60 | 18.74 | 1.45 |
+| Hybrid    |                      12.78 | 17.68 | 1.40 |
 
 The last method is a simple average of the forecasts from
 [`ets()`](https://pkg.robjhyndman.com/forecast/reference/ets.html) and
